@@ -1,92 +1,92 @@
-export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+export const siteConfig = { 
+  name: "Vishnu Jaiswal",
+  title: "Data Science & AI Professional",
+  description: "Portfolio website of Vishnu Jaiswal",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "vishnu@vishescape.tech",
+    linkedin: "https://www.linkedin.com/in/vishnu-analyst",
+    twitter: "",
+    github: "https://github.com/zAcKeR-KrAcKeR",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Technology professional with 2+ years of experience in Banking Technology, driving digital transformation through data automation, workflow optimization, and compliance-driven infrastructure aligned with RBI standards. AI & Agentic Systems Builder showcasing advancing into AI engineering by blending data science, intelligent automation, and agent-based architectures to solve high-impact business problems and deliver measurable ROI.",
+  skills: [
+    "GitHub",
+    "Big Data",
+    "Azure",
+    "Agentic-Workflow",
+    "A2A",
+    "Autogen",
+    "Langchain",
+    "Semantic-Kernel",
+    "LLM",
+    "FastAPI",
+    "Supabase",
+    "Render",
+    "RAG"
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "AI Voice Receptionist – Multi-Agent Orchestration",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Built a real-time AI voice receptionist for hotels that automates guest inquiries, manages bookings, and delivers human-like support. Implemented multi-agent orchestration (LangChain + AutoGen) integrated with Azure STT/TTS and FastAPI.",
+      link: "",
+      skills: ["LangChain", "AutoGen", "Azure STT/TTS", "FastAPI"]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "AI Powered Resume ATS - Score",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+        "Developed an AI-powered Resume ATS Checker using Python, deployed on Streamlit, enabling users to evaluate ATS compatibility, receive AI-generated improvement suggestions, and upload resumes in multiple formats for analysis.",
+      link: "https://resume-ats-checker-vishnu.streamlit.app/",
+      skills: ["Python", "NLP", "Computer Vision", "Streamlit"]
+    }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "IDBI Bank [Intech]",
+      title: "Technology Delivery – Treasury",
+      dateRange: "Sep 2023 – July 2024",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+        "Executed end-to-end Treasury IT infrastructure including 20+ servers and 40+ applications",
+        "Drove the implementation of RBI projects such as E-Kuber and CCIL",
+        "Streamlined banking workflows by automating server pipelines and ensuring accuracy in reporting using SQL and Python"
+      ]
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Globe Caliber",
+      title: "Security Engineer",
+      dateRange: "Feb 2023 – June 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
+        "Configured and maintained enterprise-level endpoint security solutions",
+        "Investigated and remediated security incidents, strengthening defenses across a pan-India network",
+        "Proactively monitored alerts and executed incident response protocols"
+      ]
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Team Computers (Deputed at IDBI Bank)",
+      title: "IT Engineer",
+      dateRange: "Oct 2021 – May 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+        "Delivered Tier 2 IT support and assisted in server-level operations",
+        "Performed network diagnostics and LAN setup (switch-level, crimping, I/O punching)",
+        "Supported IT audits by generating compliance reports for VAPT, SOC, IS, and Cyber Audit"
+      ]
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Symbiosis Institute of Geoinformatics, Pune",
+      degree: "Masters in Data Science With Specialization in AI",
+      dateRange: "July 2024 – June 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+        "Specialization in AI-driven solutions and data science projects"
+      ]
+    }
   ],
+  achievements: [
+    "Founded and Reported Bug for Centralized Exam - Result Site",
+    "Educated audiences on Ethical Hacking through YouTube since 2017",
+    "Ethical Hacking Essentials by EC-Council"
+  ]
 };
